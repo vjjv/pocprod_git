@@ -1,3 +1,8 @@
+document.addEventListener('DOMContentLoaded', init);
+
+function init(){
+
+
 // Select DOM elements
 const canvasPart = document.querySelector(".canvas-part");
 const previewPart = document.querySelector(".preview-part");
@@ -717,3 +722,5 @@ captureButton.addEventListener(
   },
   { passive: false }
 );
+
+}
