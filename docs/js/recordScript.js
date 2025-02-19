@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', init);
+document.addEventListener('window.onload', init);
 
 function init(){
 
