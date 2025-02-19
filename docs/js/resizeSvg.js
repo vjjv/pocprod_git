@@ -1,4 +1,4 @@
-document.addEventListener('window.onload', resizeSvg);
+// document.addEventListener('window.onload', resizeSvg);
 
 
 
@@ -36,4 +36,4 @@ function resizeSvg(scale = 1) {
   innerCircle.setAttribute("cy", centerY);
 }
 
-// resizeSvg();
+resizeSvg();

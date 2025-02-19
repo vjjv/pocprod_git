@@ -1,6 +1,6 @@
-document.addEventListener('window.onload', init);
+// document.addEventListener('window.onload', init);
 
-function init(){
+// function init(){
 
 
 // Select DOM elements
@@ -723,4 +723,4 @@ captureButton.addEventListener(
   { passive: false }
 );
 
-}
+// }
